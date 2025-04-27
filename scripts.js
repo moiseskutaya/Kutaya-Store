@@ -35,7 +35,7 @@ function update(direction) {
     items[active].classList.add('active')
     dots[active].classList.add('active')
 
-    numberIndicator.textContent = string(active + 1).padStart(2,'0')
+    numberIndicator.textContent = String(active + 1).padStart(2,'0')
 
 }
 
